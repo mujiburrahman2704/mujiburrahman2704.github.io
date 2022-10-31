@@ -556,12 +556,20 @@ video {
   margin-right: 2rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
 
 .flex-row {
   flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
