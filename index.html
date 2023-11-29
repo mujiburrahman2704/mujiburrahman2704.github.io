@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-100">
+<div class="bg-gray-100">
   <section id="nav" class="mt-4">
     <div class="container mx-auto">
       <nav class="flex justify-around">
@@ -65,14 +65,132 @@
     </div>
   </section>
 
-  <section id="about" class="bg-white">
+  <div id="skill" class="bg-white">
+    <div class="container py-5 mx-auto">
+      <div class="flex justify-center">
+        <h1 class="px-10 py-1 border-b border-black font-bold">Skills</h1>
+      </div>
+      <div class="flex flex-wrap mt-8">
+        <div class="lg:w-1/2 self-end px-4 w-full">
+          <div class="overflow-auto flex flex-col space-y-2">
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-base font-medium ">kafka</span>
+                <span class="text-sm font-medium ">60%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 60%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-base font-medium ">Confluent administrator</span>
+                <span class="text-sm font-medium ">60%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 60%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-base font-medium ">Python</span>
+                <span class="text-sm font-medium ">45%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 45%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-base font-medium ">HTML</span>
+                <span class="text-sm font-medium ">70%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 70%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-base font-medium ">Javascript</span>
+                <span class="text-sm font-medium ">30%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 30%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-base font-medium ">Linux</span>
+                <span class="text-sm font-medium ">50%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 45%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full self-start px-4 lg:w-1/2">
+          <div class="overflow-auto flex flex-col mx-10 space-y-2">
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-base font-medium ">Github</span>
+                <span class="text-sm font-medium ">35%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 35%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-base font-medium ">Script Bash Linux</span>
+                <span class="text-sm font-medium ">30%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 30%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-base font-medium ">IoT</span>
+                <span class="text-sm font-medium ">65%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 65%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-base font-medium ">PHP</span>
+                <span class="text-sm font-medium ">40%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 40%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-base font-medium ">Laravel</span>
+                <span class="text-sm font-medium ">30%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 30%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="about">
     <div class="container py-5 mx-auto">
       <div class="flex justify-center">
         <h1 class="px-10 py-1 border-b border-black font-bold">About</h1>
       </div>
-      <div class="overflow-auto">    
+      <div class="overflow-auto">
         <div class="container mx-auto px-20 py-10 grid grid-rows-3 lg:grid-cols-3 gap-4">
-          <div class="mx-w-sm overflow-hidden shadow-md rounded-md">
+          <div class="max-w-sm overflow-hidden shadow-md rounded-md">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">
                 project1
@@ -124,9 +242,9 @@
       </div>
     </div>
   </section>
-</body>
-<script>
+  </body>
+  <script>
 
-</script>
+  </script>
 
 </html>
